@@ -24,12 +24,7 @@ a{color:inherit}
   background:rgba(18,18,26,.5);backdrop-filter: blur(10px);
   color:var(--muted);font-size:14px;
 }
-.disintegrate-wrap{
-  position: relative;
-  display: inline-block;
-  width: fit-content;
-  cursor: pointer;
-}
+
 
 #stinky{
   display:block;
@@ -37,13 +32,7 @@ a{color:inherit}
   height: auto;
 }
 
-#stinkyCanvas{
-  position:absolute;
-  inset:0;
-  width:100%;
-  height:100%;
-  pointer-events:none; /* clicks go to the img */
-}
+
 
 h1{font-size:clamp(40px,6vw,72px);margin:14px 0 10px;letter-spacing:-.02em}
 .sub{max-width:60ch;margin:0 auto 22px;color:var(--muted);font-size:18px;line-height:1.6}
@@ -139,4 +128,5 @@ main{max-width:1040px;margin:0 auto;padding:0 16px 80px}
   .gallery{grid-template-columns:repeat(2, minmax(0,1fr))}
   .photo img{height:180px}
 }
+
 
