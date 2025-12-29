@@ -10,9 +10,6 @@ document.getElementById("herName").textContent = HER_NAME;
 document.getElementById("yourName").textContent = YOUR_NAME;
 document.getElementById("secretText").textContent = SECRET_MESSAGE;
 
-const img = document.getElementById("stinky");
-const canvas = document.getElementById("stinkyCanvas");
-const ctx = canvas.getContext("2d");
 
 
 function updateTimer(){
@@ -63,5 +60,6 @@ function closeLightbox(){
   lightbox.setAttribute("aria-hidden", "true");
   lightboxImg.src = "";
 }
+
 
 
